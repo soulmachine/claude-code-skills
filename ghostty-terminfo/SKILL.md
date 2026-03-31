@@ -27,6 +27,14 @@ Ghostty uses `xterm-ghostty` as its `$TERM` value. Remote hosts that lack this t
 
 ## Implementation
 
+### Local Install
+
+If you're already on the machine, just pipe it directly to `tic`:
+
+```bash
+infocmp -x xterm-ghostty | tic -x -
+```
+
 ### One-Time Install
 
 ```bash
